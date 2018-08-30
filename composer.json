@@ -1,0 +1,25 @@
+{
+    "name": "smartel1/array-fixer",
+    "description": "validator that also fixes",
+    "type": "library",
+    "keywords": [
+        "array-fixer",
+        "validator"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "drews",
+            "email": "smartel93@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+	"php": ">=5.4.0"
+    },
+   "autoload": {
+        "psr-4": {
+            "Smartel1\\ArrayFixer\\": "src"
+        }
+    }
+}
